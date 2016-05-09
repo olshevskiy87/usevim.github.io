@@ -1,70 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>vim chats</title>
-        <style>
-            span {
-                font-size: 20pt;
-            }
-            li > a {
-                font-size: 14pt;
-                text-decoration: none;
-            }
-            p {
-                font-style: italic;
-            }
-            .ico {
-                height: 17px;
-                width: 17px;
-                margin-right: 5px;
-            }
-        </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vim chats</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
     <body>
-        <img class="ico" src="images/tg.png"><span>telegram</span>
-        <ul>
-            <li>
-                <a href="https://telegram.me/vim-en">vim-en</a>
-            </li>
-            <li>
-                <a href="https://telegram.me/vim-ru">vim-ru</a>
-            </li>
-        </ul>
-
-        <img class="ico" src="images/vk.png"><span>vkontakte</span>
-        <ul>
-            <li>
-                <a href="https://vk.com/club50185211">vim group</a> (ru)
-            </li>
-        </ul>
-
-        <img class="ico" src="images/gitter.png"><span>gitter</span>
-        <ul>
-            <li>
-                <a href="https://gitter.im/usevim/vim-chat">usevim/vim-chat</a>
-            </li>
-        </ul>
-
-        <img class="ico" src="images/irc.png"><span>irc</span>
-        <ul>
-            <li>
-                <a href="irc://irc.freenode.net/vim">#vim on irc.freenode.net</a>
-            </li>
-        </ul>
-
-        <img class="ico" src="images/skype.png"><span>skype</span>
-        <ul>
-            <li>
-                <a href="https://join.skype.com/fNlUce2ZpBqR">vim</a>
-            </li>
-            <li>
-                <a href="http://tinyurl.com/ruvimchat">ruvimchat</a>
-            </li>
-        </ul>
-
-        <br><hr>
-        <p>
-            If you have any questions or suggestions, please add issue or pull
-            request on <a href="https://github.com/usevim/usevim.github.io">github</a>
-        </p>
+        <div class="container" style="max-width: 700px">
+            <div class="jumbotron">
+                <h2>Vim chats</h2>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <img class="ico img-circle" src="images/tg.png">
+                        Telegram
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://telegram.me/joinchat/B7jMAAfWP1dfUFRRmIvz8Q">
+                                vim-en
+                            </a>
+                            <img class="flag" src="images/flag_en.png">
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://telegram.me/joinchat/B7jMAD74jKwO-YYtyl0fMQ">
+                                vim-ru
+                            </a>
+                            <img class="flag" src="images/flag_ru.png">
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <img class="ico img-circle" src="images/vk.png">
+                        Vkontakte
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://vk.com/club50185211">vim group</a>
+                            <img class="flag" src="images/flag_ru.png">
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <img class="ico" src="images/gitter.png">
+                        Gitter
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://gitter.im/usevim/vim-chat">
+                                usevim/vim-chat
+                            </a>
+                            <img class="flag" src="images/flag_en.png">
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <img class="ico" src="images/irc.png">
+                        IRC
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="irc://irc.freenode.net/vim">
+                                #vim on irc.freenode.net
+                            </a>
+                            <img class="flag" src="images/flag_en.png">
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <img class="ico img-rounded" src="images/skype.png">
+                        Skype
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="https://join.skype.com/fNlUce2ZpBqR">vim</a>
+                            <img class="flag" src="images/flag_en.png">
+                        </li>
+                        <li class="list-group-item">
+                            <a href="http://tinyurl.com/ruvimchat">ruvimchat</a>
+                            <img class="flag" src="images/flag_ru.png">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr>
+            <p>
+                If you have any questions or suggestions, please create an issue
+                or pull request on
+                <a href="https://github.com/usevim/usevim.github.io">github</a>
+            </p>
+        </div>
     </body>
 </html>
